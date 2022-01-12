@@ -1,0 +1,51 @@
+html {
+    font-family: sans-serif;
+}
+
+.tablas-primeras table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.tablas-primeras td, .tablas-primeras th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+.tablas-primeras th {
+    background-color: rgb(235, 235, 235);
+}
+
+.tablas-primeras td {
+    text-align: center;
+}
+
+.tablas-primeras tr:nth-child(even) td {
+    background-color: rgb(250, 250, 250);
+}
+
+.tablas-primeras tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
+
+caption {
+    padding: 10px;
+}
+
+.school-timetable th, .school-timetable td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+.school-timetable td {
+    text-align: center;
+}
+
+.school-timetable table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}

@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
+    <img srcset="img/wp4254991.jpg, 
+                 img/italika.png 1.5x,
+                 img/prac.png 2x" 
+         src="img/italika (1).png" alt="imagenes no responsive">
+
+    <picture>
+        <source media="(max-width: 799px)" srcset="img/italika.png">
+        <source media="(min-width: 800px)" srcset="img/wp4254991.jpg">
+        <img src="img/prac.png" alt="example">
+    </picture>
     
 </body>
 </html>

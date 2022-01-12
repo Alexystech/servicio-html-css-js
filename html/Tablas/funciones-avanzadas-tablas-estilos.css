@@ -1,0 +1,88 @@
+html {
+    font-family: sans-serif;
+}
+
+.tabla-1 table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.tabla-1 td, .tabla-1 th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+.tabla-1 td {
+    text-align: center;
+}
+
+caption {
+    padding: 10px;
+}
+
+.tabla-2 table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.tabla-2 td, .tabla-2 th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+.tabla-2 th {
+    background-color: rgb(235, 235, 235);
+}
+
+.tabla-2 td {
+    text-align: center;
+}
+
+.tabla-2 tr:nth-child(even) td {
+    background-color: rgb(250, 250, 250);
+}
+
+.tabla-2 tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
+
+.tabla-2 tbody {
+    font-size: 95%;
+    font-style: italic;
+}
+
+.tabla-2 tfoot {
+    font-weight: bold;
+}
+
+.tabla-3 table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.tabla-3 td,.tabla-3 th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+.tabla-3 th {
+    background-color: rgb(235, 235, 235);
+}
+
+.tabla-3 td {
+    text-align: center;
+}
+
+.tabla-3 tr:nth-child(even) td {
+    background-color: rgb(250, 250, 250);
+}
+
+.tabla-3 tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
