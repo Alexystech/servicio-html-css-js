@@ -1,0 +1,36 @@
+/* comentarios */
+
+/* estilos para la caja */
+.caja-1 {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.caja-2 {
+    padding: 10px;
+    width: auto;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.box {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn)
+}
+
+/* espacios en blanco */
+body {
+    font: 1em/150% Helvética, Arial, sans-serif;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 33em;
+}
+
+@media (min-width: 70em) {
+    body {
+        font-size: 130%;
+    }
+}
