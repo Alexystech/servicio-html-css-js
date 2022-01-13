@@ -1,0 +1,31 @@
+.presencia-valor li[class] {
+    font-size: 200%;
+}
+
+.presencia-valor li[class="a"] {
+    background-color: yellow;
+}
+
+.presencia-valor li[class~="a"] {
+    color: red;
+}
+
+.coincidentes-con-subcadenas li[class^="a"] {
+    font-size: 200%;
+}
+
+.coincidentes-con-subcadenas li[class$="a"] {
+    background-color: yellow;
+}
+
+.coincidentes-con-subcadenas li[class*="a"] {
+    color: red;
+}
+
+.mayusculas-minusculas li[class^="a"] {
+    background-color: yellow;
+}
+
+.mayusculas-minusculas li[class^="a" i] {
+    color: red;
+}

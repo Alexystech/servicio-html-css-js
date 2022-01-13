@@ -1,0 +1,23 @@
+span {
+    background-color: yellow;
+}
+
+strong {
+    color: rebeccapurple;
+}
+
+em {
+    color: rebeccapurple;
+}
+
+a:hover {
+    background-color: lawngreen;
+}
+
+a:active {
+    color: maroon;
+}
+
+article > p:hover {
+    color: maroon;
+}

@@ -1,0 +1,57 @@
+/*rangos de especificidad (preferencia para aplicar estilos)
+ * ID > Class > selector
+*/
+
+/*selectores*/
+* {
+    margin: 0;
+}
+
+span {
+    background-color: yellow;
+}
+
+strong {
+    color: rebeccapurple;
+}
+
+em {
+    color: rebeccapurple;
+}
+
+/*clases*/
+.cajon {
+    width: auto;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.cajon p {
+    margin: 2px;
+}
+
+.cajon-1 {
+    color: mintcream;
+    background-color: maroon;
+}
+
+.cajon-2 {
+    border-style: solid;
+}
+
+.cajon-3 {
+    border-style: ridge;
+}
+
+.cajon-4 {
+    border-style: groove;
+}
+
+/*ID's*/
+#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    color: navy;
+}
