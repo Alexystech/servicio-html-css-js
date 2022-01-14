@@ -1,0 +1,58 @@
+article {
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+}
+
+article p:first-child {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+article p:last-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+a:link,
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+.article-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.article-2 p::first-line {
+    font-weight: bold;
+}
+
+.article-2 p:last-child::first-letter {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.box::before {
+    content: "This should show before the other content.";
+    background-color: lime;
+}   
+
+.box::after {
+    content: "This should show after the other content.";
+    background-color: lime;
+}
+
+.box-2::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 1px solid black;
+}

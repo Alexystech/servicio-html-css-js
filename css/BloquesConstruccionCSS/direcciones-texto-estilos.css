@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-1 {
+    display: flex;
+}
+
+.box-1 .horizontal {
+    writing-mode: horizontal-tb;
+    width: 400px;
+    border: 2px solid black;
+    height: 500px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+  
+.box-1 .vertical {
+    writing-mode: vertical-rl;
+    width: fit-content;
+    border: 2px solid black;
+    height: 500px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.box-2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+    background-color: black;
+    writing-mode: vertical-rl;
+}
+
+.box-3 {
+    display: flex;
+}
+
+.box-3 .box {
+    width: 150px;
+}
+  
+.box-3 .horizontal {
+    writing-mode: horizontal-tb;
+    border: 2px solid black;
+}
+
+.box-3 #special-text {
+    writing-mode: vertical-lr;
+}
+  
+.box-3 .vertical {
+    writing-mode: vertical-rl;
+    border: 2px solid black;
+}

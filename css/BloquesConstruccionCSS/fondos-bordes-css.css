@@ -1,0 +1,58 @@
+.box-1 {
+    background-color: darkcyan;
+}
+  
+.box-1 h2 {
+    background-color: black;
+    color: white;
+}
+.box-1 span {
+    background-color: rgba(255,255,255,.5);
+}
+
+body {
+    background-color: darkgrey;
+}
+
+/*---------------------------------*/
+.a {
+    background-image: url('src/prac.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 300px;
+}
+  
+.b {
+    background-image: url('src/italika.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500px;
+}
+
+/*----------------------------------------*/
+.box-2 .a {
+    background-image: linear-gradient(105deg, rgba(0,249,255,1) 39%, rgba(51,56,57,1) 97%);
+    width: 500px;
+}
+ 
+.box-2 .b {
+    background-image: radial-gradient(circle, rgba(0,249,255,1) 39%, rgba(51,56,57,1) 96%);
+    background-size: 500px;
+}
+
+/**---------------------------------------*/
+.box-3 {
+    margin-top: 25px;
+    background-color: #567895;
+    border: 5px solid #0b385f;
+    border-bottom-style: dashed;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    border-top-style: dotted;
+    color: #fff;
+}
+  
+.box-3 h2 {
+    border-top: 2px dotted rebeccapurple;
+    border-bottom: 1em double rgb(24, 163, 78);
+}
