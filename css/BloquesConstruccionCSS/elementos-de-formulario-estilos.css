@@ -1,0 +1,88 @@
+.wrapper-1 .box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.cover {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.wrapper-1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper-1 .cover {
+    object-fit: cover;
+}
+
+.cover .contain {
+    object-fit: contain;
+}
+
+/*-----------------------------------------*/
+
+.wrapper-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+}
+
+.wrapper-2 > div {
+    background-color: rebeccapurple;
+    border-radius: .5em;
+}
+
+.wrapper-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/*---------------------------------------------*/
+
+.formulario-1 {
+    margin-top: 50px;
+}
+
+.formulario-1 .form-label, .formulario-1 .form-control {
+    display: inline-block;
+}
+
+.formulario-1 .form-group {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.formulario-1 .form-group .form-label {
+    width: 15%;
+}
+
+.formulario-1 .form-group .form-control {
+    width: 80%;
+    margin: 0 0 1em 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.formulario-1 .btn {
+    background-color: grey;
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    height: 6vh;
+}
+
+.formulario-1 .btn:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.formulario-1 .btn:active {
+    background-color: rgb(31, 31, 31);
+}
