@@ -1,0 +1,22 @@
+@import url(https://everythingfonts.com/font/face/tblJ0_naJxCgvUifnr3f2QeF);
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+.box-1 p {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'BeyondWonderland';
+    font-size: 4.2em;
+    color: #333;
+    text-align: justify;
+}
+
+.box-2 p {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Arimo';
+    font-size: 4.2em;
+    color: #333;
+    text-align: justify;
+}

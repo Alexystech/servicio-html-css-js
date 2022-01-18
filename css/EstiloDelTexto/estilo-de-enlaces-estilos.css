@@ -1,0 +1,85 @@
+body {
+    width: auto;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.group-1 p {
+    line-height: 1.4;
+}
+
+.group-1 a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+.group-1 a:link {
+    color: #265301;
+}
+
+.group-1 a:visited {
+    color: #437A16;
+}
+
+.group-1 a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+}
+
+.group-1 a:hover {
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+}
+
+.group-1 a:active {
+    background: #265301;
+    color: #CDFEAA;
+}
+
+.group-1 .btn {
+    width: fit-content;
+    height: 40px;
+}
+
+/*----------------------------------------------------*/
+
+.group-2 ul {
+    padding: 0;
+    width: 100%;
+}
+
+.group-2 li {
+    display: inline;
+}
+
+.group-2 a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+
+.group-2 li:last-child a {
+    margin-right: 0;
+}
+
+.group-2 a:link, .group-2  a:visited, .group-2  a:focus {
+    background: yellow;
+    min-width: 150px;
+    width: fit-content;
+}
+
+.group-2 a:hover {
+    background: orange;
+}
+
+.group-2 a:active {
+    background: red;
+    color: white;
+}

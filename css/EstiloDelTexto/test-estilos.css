@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: Arimo;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+#list-1 {
+    list-style-type: square;
+}
+
+#list-2 {
+    list-style-type: lower-alpha;
+}
+
+#list-3 {
+    list-style-type: square;
+}
+
+#list-4 {
+    list-style: none;
+}
+
+#list-4 li {
+    min-width: 75px;
+    width: fit-content;
+    height: 20px;
+}
+
+#list-4 ul {
+    padding: 0;
+    width: 100%;
+}
+
+#list-4 li {
+    display: inline;
+}
+
+#list-4 a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+
+#list-4 li:last-child a {
+    margin-right: 0;
+}
+
+#list-4 a:link, #list-4 a:visited, #list-4 a:focus {
+    background: none;
+    min-width: 150px;
+    width: fit-content;
+    border: 1px solid brown;
+    margin-bottom: 25px;
+}
+
+#list-4 a:hover {
+    background: gray;
+}
+
+#list-4 a:active {
+    background: red;
+    color: white;
+}
+
+section p a {
+    background: url('src/img/external-link-52.png') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+}
+
+
