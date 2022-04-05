@@ -426,6 +426,6 @@ const fullText = document.getElementById('button-1');
 
 function updateName() {
     let name = prompt('enter your name');
-    console.log(fullText);
+    console.log(fullText.textContent);
     //fullText.textContent = 'SU NOMBRE ES: ' + name;
 }
