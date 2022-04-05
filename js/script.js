@@ -115,7 +115,7 @@ console.log(firstname + " " );
  * del codigo, sin importar su posicion para su 
  * procesamiento, sin embargo, la inicilizacion de 
  * las variables no es llevada al inicio del codigo
- * oara su compilacion, sino solo su declaracion, lo
+ * para su compilacion, sino solo su declaracion, lo
  * cual suele dar espacio a errores cuando se declara 
  * una variable sin inicializarla.
  */
@@ -288,12 +288,138 @@ do {
     console.log(students[i]);
     i++;
 } while(i < students.length);
+
 /**
  * -------------------------------------------
  * -------------------------------------------
  * -------------------------------------------
  * -------------------------------------------
- * 
+ */
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("OBJECTS");
+
+var car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    getCarDetails: function() {
+        console.log(`Auto ${this.model} ${this.year}`);
+    }
+};
+
+car.getCarDetails();
+
+function auto(marca, modelo, anio) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.anio = anio;
+}
+
+var autoNuevo = new auto("Tesla", "Model X", 2018);
+var autoNuevo2 = new auto("Auto x", "modelo x", 2020);
+var autoNuevo3 = new auto("Auto z", "modelo z", 2018);
+var autoNuevo4 = new auto("auto y", "modelo y", 2020);
+
+console.log(autoNuevo);
+console.log(autoNuevo2);
+console.log(autoNuevo3);
+console.log(autoNuevo4);
+
+for (let i = 0; i < 10; i++) {
+    var autoNuevo = new auto("Tesla model " + i, "modelof", 2017);
+
+    console.log(autoNuevo);
+}
+
+/**
+ * -------------------------------------------
+ * -------------------------------------------
+ * -------------------------------------------
+ * -------------------------------------------
+ */
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("METODOS DE RECORRIDOS DE ARRAYS");
+
+var articulos = [
+    { nombre: "Xiaomi remi A9", costo: 2999 },
+    { nombre: "Samsung Grand Prime", costo: 3500 },
+    { nombre: "Samsung A30", costo: 890 },
+    { nombre: "Samsung A50", costo: 1500 },
+    { nombre: "Xiaomi A10", costo: 1800 },
+    { nombre: "Nokia 320", costo: 900 },
+    { nombre: "Sony Xperia", costo: 2600 },
+];
+
+var articulosFiltrados = articulos.filter( function(articulo) {
+    return articulo.costo <= 1000
+});
+
+console.log(articulosFiltrados);
+
+var nombreArticulos = articulos.map( function(articulo) {
+    return articulo.nombre;
+});
+
+console.log(nombreArticulos);
+
+var findArticle = articulos.find(function(articulo) {
+    return articulo.nombre === "Samsung A30";
+});
+
+console.log(findArticle);
+
+articulos.forEach(function(articulo) {
+    console.log(articulo.nombre + " -- " + articulo.costo);
+});
+
+var articulosBaratos = articulos.some(function(articulo) {
+    return articulo.costo <= 1000;
+});
+
+console.log(articulosBaratos);
+
+/**
+ * -------------------------------------------
+ * -------------------------------------------
+ * -------------------------------------------
+ * -------------------------------------------
+ */
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("-------------------------------------------");
+console.log("ELIMINANDO ELEMENTOS DE UN ARRAY");
+
+console.log("<<metodo push>>"); //agrega un elemento al array
+
+let numArray = [1,2,3,4,5]; 
+
+function newNum() {
+    numArray.push(6,7);
+    console.log(numArray);
+}
+
+newNum();
+
+console.log("<<metodo shift>>"); //elimina el primer elemento
+let shiftArray = numArray.shift();
+console.log(numArray);
+
+console.log("<<metodo pop>>") //elimina el ultimo elemento
+let popArray = numArray.pop();
+console.log(numArray);
+
+/**
+ * -------------------------------------------
+ * -------------------------------------------
+ * -------------------------------------------
+ * -------------------------------------------
  */
 
 const fullText = document.getElementById('button-1');
